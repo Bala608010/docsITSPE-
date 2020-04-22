@@ -15,7 +15,13 @@ For optimzing the OD_matrix we requrie three files:
 2. fun_req.py - Functions that are requried to run the PSO_code.py file
 3. config.ini - Configuration file to configure variables in the code
 
-The attributes in
+The following attributes/elements are used within config.ini:
+1. directory_config - Managing the Directorys
+   a. Input_directory - The directory which contains the model.
+   b. temp_directory - The directory to which the temporary files should be created.
+   c. 
+    
+
 
 
 
