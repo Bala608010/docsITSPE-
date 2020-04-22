@@ -17,9 +17,8 @@ For optimzing the OD_matrix we requrie three files:
 
 The following attributes/elements are used within config.ini:
 1. directory_config - Managing the Directorys
-   a. Input_directory - The directory which contains the model.
-   b. temp_directory - The directory to which the temporary files should be created.
-   c. 
+   - Input_directory - The directory which contains the model.
+   - temp_directory - The directory to which the temporary files should be created. 
     
 
 
