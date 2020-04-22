@@ -1,10 +1,10 @@
-# docsITSPE
-# Optimizing ODE
+### docsITSPE
+### Optimizing ODE
 To optimize OD_matrix we are using Particle Swarm Optimizer(PSO). 
 
 For the implemtaion of the PSO we chose a PSO toolkit called Pyswarms 
 
-# Prerequisite 
+### Prerequisite 
 1. Sumo Version 1.5.0
 2. Python3
 3. Pyswarms 
@@ -50,7 +50,7 @@ The following attributes/elements are used within config.ini:
      - offline : We will be runing sumo for the model
 
 
-## References 
+#### References 
 SUMO 
     - https://sumo.dlr.de/docs/
 
