@@ -48,6 +48,25 @@ The following attributes/elements are used within config.ini:
    - type : There are two modes of running the file. 
      - online : We will be runing Dusrouter for the model
      - offline : We will be runing sumo for the model
+### Run the code 
+We have to make the requried changes to in config.ini file. 
+Then we have to simply run the PSO_code.py file. we will get the output in the output file directory. 
+
+### process for optimizing 
+- We get the od_matrix from the OD_matrix file given in config.ini. This is consider to be input particle to the code.
+- Based on the given percentage we will create those many particles close to the input particle and the remining particles ae choosen randomly. So these are the initial positions of the particles. 
+- We have to choose the bounds. to make sure that particles won't excide a certain limit. 
+- we genrate the object my_swarms object. 
+- We have to design the function to be minimized. In this case we have to optimize difference between the real flow and the simulated flow. 
+  - Take each particle from the my_swarms.position and make the od_matrix file. 
+  - Run the we can run SUMO or Duarouter using the genrated trips file and other files mensioned in the config.ini. 
+  - we get the simulaed flow from the e1_output file for sumo or routes file for duaroter. 
+- The above three processes are parallalized for better speed. 
+- The real flow and simulated flow will be given to objective function this function will give the cost. 
+- Based on the cost we can calculate the p_best and G_best and update the position and velocity. 
+- This will run for given number of iterations. 
+- my_swarm.best_cost will give the best cost. 
+- my_swarm.best_pos will give the best position. 
 
 
 #### References 
