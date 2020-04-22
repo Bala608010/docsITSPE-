@@ -52,9 +52,13 @@ The following attributes/elements are used within config.ini:
 
 ## References 
 SUMO - https://sumo.dlr.de/docs/
+
 PSO - https://en.wikipedia.org/wiki/Particle_swarm_optimization
+
     - https://www.youtube.com/watch?v=JhgDMAm-imI 
+
 MAPE - https://www.statisticshowto.com/mean-absolute-percentage-error-mape/
+
 GEH - https://en.wikipedia.org/wiki/GEH_statistic
 
 
