@@ -82,6 +82,3 @@ MAPE
 
 GEH 
     - https://en.wikipedia.org/wiki/GEH_statistic
-
-
-
